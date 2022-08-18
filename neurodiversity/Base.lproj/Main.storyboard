@@ -58,7 +58,7 @@
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="NAJ-ID-WKj" kind="presentation" modalPresentationStyle="fullScreen" id="fie-WF-8SA"/>
+                                    <segue destination="xG2-ff-TQZ" kind="show" id="eJf-Rz-HdT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCr-07-tff">
@@ -90,7 +90,36 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="72.991071428571431"/>
+            <point key="canvasLocation" x="-561" y="58"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5ue-pj-KlR">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="xG2-ff-TQZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AKj-rB-WNG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCV-uK-Ajg">
+                                <rect key="frame" x="174" y="608" width="69" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Next">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="NAJ-ID-WKj" kind="show" id="c1x-H3-X4N"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RdH-Bw-8ez"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="x3F-u2-GiQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OVM-mv-oft" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="109" y="72"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tUJ-kc-VMm">
@@ -143,7 +172,7 @@
         <!--View Controller-->
         <scene sceneID="8Hm-7E-eAz">
             <objects>
-                <viewController id="NAJ-ID-WKj" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="NAJ-ID-WKj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ov7-QR-OoC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -213,7 +242,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zfh-fh-tLA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="800.00000000000011" y="72.991071428571431"/>
+            <point key="canvasLocation" x="1139" y="72"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Y1q-vz-bhG">
