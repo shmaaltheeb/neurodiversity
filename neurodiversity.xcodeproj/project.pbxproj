@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89B154A128AEB04A00664D51 /* meetDevPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B154A028AEB04A00664D51 /* meetDevPopup.swift */; };
+		89B154A328AEB07800664D51 /* meetDevPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B154A228AEB07800664D51 /* meetDevPopup.xib */; };
 		9DD2838428AD2F0B003474B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD2838328AD2F0B003474B1 /* AppDelegate.swift */; };
 		9DD2838628AD2F0B003474B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD2838528AD2F0B003474B1 /* SceneDelegate.swift */; };
 		9DD2838828AD2F0B003474B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD2838728AD2F0B003474B1 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89B154A028AEB04A00664D51 /* meetDevPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetDevPopup.swift; sourceTree = "<group>"; };
+		89B154A228AEB07800664D51 /* meetDevPopup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = meetDevPopup.xib; sourceTree = "<group>"; };
 		9DD2838028AD2F0B003474B1 /* neurodiversity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neurodiversity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD2838328AD2F0B003474B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DD2838528AD2F0B003474B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				9DD2838328AD2F0B003474B1 /* AppDelegate.swift */,
+				89B154A228AEB07800664D51 /* meetDevPopup.xib */,
+				89B154A028AEB04A00664D51 /* meetDevPopup.swift */,
 				9DD2838528AD2F0B003474B1 /* SceneDelegate.swift */,
 				9DD2838728AD2F0B003474B1 /* ViewController.swift */,
 				9DD2838928AD2F0B003474B1 /* Main.storyboard */,
@@ -131,6 +137,7 @@
 				9DD2839328AD2F0E003474B1 /* LaunchScreen.storyboard in Resources */,
 				9DD2839028AD2F0E003474B1 /* Assets.xcassets in Resources */,
 				9DD2838B28AD2F0B003474B1 /* Main.storyboard in Resources */,
+				89B154A328AEB07800664D51 /* meetDevPopup.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +152,7 @@
 				9DD2838428AD2F0B003474B1 /* AppDelegate.swift in Sources */,
 				9DD2838628AD2F0B003474B1 /* SceneDelegate.swift in Sources */,
 				9DD2838E28AD2F0C003474B1 /* neurodiversity.xcdatamodeld in Sources */,
+				89B154A128AEB04A00664D51 /* meetDevPopup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

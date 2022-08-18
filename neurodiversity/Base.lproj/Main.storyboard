@@ -9,32 +9,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="mew-Ic-knc">
-            <objects>
-                <viewController modalPresentationStyle="fullScreen" id="cHM-Bk-FUN" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Hqo-Eg-IbY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oIR-es-kei">
-                                <rect key="frame" x="48" y="143" width="149" height="135"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="14A-sS-xZN">
-                                <rect key="frame" x="222" y="143" width="149" height="135"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="KSC-nm-xC2"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="T0B-cu-S4S"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ysk-N7-tOj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1046.376811594203" y="707.8125"/>
-        </scene>
         <!--View1-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -79,14 +53,14 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Meet the Developers">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="cHM-Bk-FUN" kind="show" id="Eb8-cb-pQK"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                     </view>
+                    <connections>
+                        <outlet property="meetDevButton" destination="LfT-5s-Lwn" id="JKH-s3-myQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -110,6 +84,12 @@
                                 <connections>
                                     <segue destination="NAJ-ID-WKj" kind="show" id="c1x-H3-X4N"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Xk-SX-8Qi">
+                                <rect key="frame" x="26" y="831" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RdH-Bw-8ez"/>
@@ -136,6 +116,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8IL-hT-g7R">
+                                <rect key="frame" x="26" y="831" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ltV-pk-B5W"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -160,6 +146,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qth-c4-61a">
+                                <rect key="frame" x="26" y="831" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="csI-f2-AMH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -234,6 +226,12 @@
                                 <rect key="frame" x="61" y="100" width="293" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qck-uG-IHx">
+                                <rect key="frame" x="26" y="831" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7S1-Hp-W6V"/>
                         <color key="backgroundColor" red="0.99135547879999997" green="0.95048004389999996" blue="0.85880929230000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -272,6 +270,12 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Resources"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzE-L7-Yxb">
+                                <rect key="frame" x="20" y="831" width="67" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="66B-Rb-D14"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -296,6 +300,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdk-9w-akP">
+                                <rect key="frame" x="26" y="831" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="N1l-z6-5CW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
