@@ -67,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-561" y="58"/>
+            <point key="canvasLocation" x="-848" y="72"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5ue-pj-KlR">
@@ -145,7 +145,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OVM-mv-oft" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="108.69565217391305" y="71.651785714285708"/>
+            <point key="canvasLocation" x="-93" y="72"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tUJ-kc-VMm">
@@ -178,7 +178,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGW-8c-iL8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="800.00000000000011" y="943.52678571428567"/>
+            <point key="canvasLocation" x="1806" y="834"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="T8D-uZ-lgV">
@@ -211,7 +211,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Qe-Ks-Wa1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1702.8985507246377" y="932.8125"/>
+            <point key="canvasLocation" x="1806" y="72"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8Hm-7E-eAz">
@@ -292,7 +292,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zfh-fh-tLA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="800" y="72"/>
+            <point key="canvasLocation" x="693" y="72"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Y1q-vz-bhG">
@@ -338,7 +338,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FcM-aV-XnW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1776.8115942028987" y="57.589285714285708"/>
+            <point key="canvasLocation" x="693" y="-697"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2hZ-B1-Chu">
@@ -371,11 +371,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Xg-wq-G7z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-17.39130434782609" y="811.60714285714278"/>
+            <point key="canvasLocation" x="693" y="834"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="c1x-H3-X4N"/>
+        <segue reference="bRJ-i7-0bj"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
