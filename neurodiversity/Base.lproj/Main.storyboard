@@ -522,10 +522,6 @@
                                     <segue destination="NAJ-ID-WKj" kind="presentation" modalPresentationStyle="fullScreen" id="vH3-Pi-H5C"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Educators image" translatesAutoresizingMaskIntoConstraints="NO" id="0Ap-CW-Ge8">
-                                <rect key="frame" x="71" y="223" width="273" height="153"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Rg-iI-6MI">
                                 <rect key="frame" x="54" y="367" width="344" height="429"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -552,6 +548,10 @@ Allow all students to use fidget toys during lessons to help aid in them paying 
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Educators image" translatesAutoresizingMaskIntoConstraints="NO" id="0Ap-CW-Ge8">
+                                <rect key="frame" x="71" y="223" width="273" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="66B-Rb-D14"/>
                         <color key="backgroundColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -684,7 +684,7 @@ According to Psychology Today, “Positive Psychology is a branch of psychology 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="HGH-0E-WSi"/>
+        <segue reference="vH3-Pi-H5C"/>
         <segue reference="df0-qb-zrS"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
