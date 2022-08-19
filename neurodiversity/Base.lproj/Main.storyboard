@@ -530,7 +530,7 @@
                                 <rect key="frame" x="54" y="367" width="344" height="429"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">
+                                <string key="text">
 VALUE STUDENTS’ DIFFERENCES!
 While this may seem somewhat cliche and overused, it’s extremely important for teachers to recognize the struggles that neurodivergent students may face. In addition to this, be sure to highlight their strengths as opposed to only focusing on their adversities. 
 
@@ -540,7 +540,7 @@ If possible, have dim lighting at some point during the school day. This can hel
 ALLOW FIDGET TOYS
 Allow all students to use fidget toys during lessons to help aid in them paying attention to the teaching materials.
 
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -610,13 +610,6 @@ Allow all students to use fidget toys during lessons to help aid in them paying 
                                     <segue destination="NAJ-ID-WKj" kind="presentation" modalPresentationStyle="fullScreen" id="HGH-0E-WSi"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn how to Neurodiversify your school" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qU7-Af-n7D">
-                                <rect key="frame" x="54" y="91" width="306" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D20-Ou-wfr">
                                 <rect key="frame" x="122" y="128" width="170" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -634,7 +627,7 @@ Allow all students to use fidget toys during lessons to help aid in them paying 
                                 <rect key="frame" x="37" y="322" width="340" height="510"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">EMBRACE YOUR CHILD’S DIFFERENCES!!
+                                <string key="text">EMBRACE YOUR CHILD’S DIFFERENCES!!
 
 At Neurodiversify, we understand the challenges that can accompany raising a neurodivergent child and we are here to support you through our interactive resources. 
 
@@ -652,11 +645,18 @@ Now, one may ask…
 WHAT IS POSITIVE PSYCHOLOGY?
 
 According to Psychology Today, “Positive Psychology is a branch of psychology that focused on the character strengths and behaviours that allow individuals to build a life of meaning and purpose - to move beyond surviving to flourishing. Theorists and researchers in the field have sought to identify the elements of a good life. They have also purposed and tested practices for improving life satisfaction and well-being.”
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11.5"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn how to Neurodiversify your school" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qU7-Af-n7D">
+                                <rect key="frame" x="54" y="85" width="306" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="N1l-z6-5CW"/>
                         <color key="backgroundColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -684,7 +684,7 @@ According to Psychology Today, “Positive Psychology is a branch of psychology 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vH3-Pi-H5C"/>
+        <segue reference="HGH-0E-WSi"/>
         <segue reference="df0-qb-zrS"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
