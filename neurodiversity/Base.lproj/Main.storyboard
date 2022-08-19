@@ -558,25 +558,6 @@ According to Psychology Today, “Positive Psychology is a branch of psychology 
                                     <segue destination="NAJ-ID-WKj" kind="presentation" modalPresentationStyle="fullScreen" id="vH3-Pi-H5C"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Rg-iI-6MI">
-                                <rect key="frame" x="38" y="297" width="344" height="429"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">
-VALUE STUDENTS’ DIFFERENCES!
-While this may seem somewhat cliche and overused, it’s extremely important for teachers to recognize the struggles that neurodivergent students may face. In addition to this, be sure to highlight their strengths as opposed to only focusing on their adversities. 
-
-HAVE DIM LIGHTING
-If possible, have dim lighting at some point during the school day. This can help ease the anxiety often brought on by the intense white lights.  
-
-ALLOW FIDGET TOYS
-Allow all students to use fidget toys during lessons to help aid in them paying attention to the teaching materials.
-
-</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn how to Neurodiversify your school" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qMb-gd-6HO">
                                 <rect key="frame" x="38" y="44" width="306" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -602,6 +583,22 @@ Allow all students to use fidget toys during lessons to help aid in them paying 
                                     <segue destination="VlN-cH-rN7" kind="presentation" modalPresentationStyle="overFullScreen" id="Pfh-nn-KBP"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="37" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PP5-Zi-B5W">
+                                <rect key="frame" x="20" y="334" width="374" height="385"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">
+VALUE STUDENTS’ DIFFERENCES!
+While this may seem somewhat cliche and overused, it’s extremely important for teachers to recognize the struggles that neurodivergent students may face. In addition to this, be sure to highlight their strengths as opposed to only focusing on their adversities. 
+
+HAVE DIM LIGHTING
+If possible, have dim lighting at some point during the school day. This can help ease the anxiety often brought on by the intense white lights.  
+
+ALLOW FIDGET TOYS
+Allow all students to use fidget toys during lessons to help aid in them paying attention to the teaching materials.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="66B-Rb-D14"/>
                         <color key="backgroundColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -687,9 +684,10 @@ According to Psychology Today, “Positive Psychology is a branch of psychology 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Pfh-nn-KBP"/>
         <segue reference="Gm5-kH-bR4"/>
-        <segue reference="8fY-lt-bXo"/>
-        <segue reference="m8Y-Xz-4dP"/>
+        <segue reference="vH3-Pi-H5C"/>
+        <segue reference="kak-cK-CHs"/>
         <segue reference="df0-qb-zrS"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
