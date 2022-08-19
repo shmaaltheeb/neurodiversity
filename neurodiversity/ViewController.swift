@@ -23,6 +23,14 @@ class ViewController: UIViewController {
     @objc func closePopupTapped(){
         
         self.commercialPopUp.removeFromSuperview()
+        
+        
+        
+        
+        
+        
+        
     }
-}
+    }
+
 

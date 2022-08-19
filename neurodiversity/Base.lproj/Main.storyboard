@@ -14,7 +14,7 @@
             <objects>
                 <viewController title="View1" id="BYZ-38-t0r" customClass="ViewController" customModule="neurodiversity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="_neurodiverisfy__3_-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="nqe-1I-NgY">
@@ -145,6 +145,15 @@
                                     <segue destination="pCo-WZ-LUX" kind="show" id="E7Z-kr-b0F"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKj-BS-8hD">
+                                <rect key="frame" x="26" y="790" width="110" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="Qeg-vy-wmI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="H7k-nj-Yox"/>
                         <color key="backgroundColor" red="0.73072093684251749" green="0.70225421938623356" blue="0.78370064496994019" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -230,6 +239,16 @@
                                 <rect key="frame" x="-88" y="-128" width="566" height="561"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2wv-OA-NuQ">
+                                <rect key="frame" x="82" y="286" width="279" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Hi I’m Chloe and I love coding and designing, especially when it allows me to do good for my community!
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bVS-Hi-QL8"/>
                         <color key="backgroundColor" red="0.79876749459999996" green="0.84267407660000004" blue="0.6228796003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -360,7 +379,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cl-MN-1hA">
-                                <rect key="frame" x="93" y="106" width="228" height="21"/>
+                                <rect key="frame" x="31" y="31" width="228" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -375,14 +394,49 @@
                                     <segue destination="NAJ-ID-WKj" kind="presentation" modalPresentationStyle="fullScreen" id="8fY-lt-bXo"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn how to Neurodiversify your home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqq-eW-80x">
+                                <rect key="frame" x="54" y="113" width="299" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtK-BJ-bPs">
+                                <rect key="frame" x="122" y="160" width="170" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Resources"/>
+                                <connections>
+                                    <segue destination="s4Z-Xk-2Hi" kind="presentation" id="Q89-sd-n68"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asd-learningathome-1" translatesAutoresizingMaskIntoConstraints="NO" id="60j-tp-DbN">
+                                <rect key="frame" x="87" y="219" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ltV-pk-B5W"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.98857561159999996" blue="0.95789569190000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGW-8c-iL8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1806" y="834"/>
+            <point key="canvasLocation" x="2509" y="72"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rKi-eQ-2FT">
+            <objects>
+                <viewController id="s4Z-Xk-2Hi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rYv-Uo-ieW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="IbP-r4-kt5"/>
+                        <color key="backgroundColor" red="1" green="0.98857561159999996" blue="0.95789569190000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="whG-W9-qM0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3224" y="67"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="T8D-uZ-lgV">
@@ -410,7 +464,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="csI-f2-AMH"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.98857561159999996" blue="0.95789569190000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Qe-Ks-Wa1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -509,13 +563,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Educator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Rb-1D-5gd">
-                                <rect key="frame" x="20" y="31" width="81" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn how to Neurodiversify your school" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qMb-gd-6HO">
                                 <rect key="frame" x="54" y="136" width="306" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -528,6 +575,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Resources"/>
+                                <connections>
+                                    <segue destination="7Nh-Pk-2BD" kind="presentation" id="LEi-Nz-Yro"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzE-L7-Yxb">
                                 <rect key="frame" x="20" y="831" width="89" height="31"/>
@@ -538,14 +588,65 @@
                                     <segue destination="NAJ-ID-WKj" kind="presentation" modalPresentationStyle="fullScreen" id="vH3-Pi-H5C"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Educators image" translatesAutoresizingMaskIntoConstraints="NO" id="0Ap-CW-Ge8">
+                                <rect key="frame" x="71" y="266" width="273" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Rg-iI-6MI">
+                                <rect key="frame" x="35" y="445" width="344" height="306"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">- Encourage students to focus on specific skills needed for jobs that interest them. 
+-Teach “basic life skills” for the work world, like budgeting and dealing with stress.
+-Allow students to try something new even if they may not succeed. 
+-Have a psychologically safe classroom
+-Present information in small chunks
+-Diversify your teaching strategies 
+-Familiarise yourself wth their strengths and weaknesses
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="66B-Rb-D14"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.9885756116126575" blue="0.95789569192640012" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FcM-aV-XnW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="693" y="-697"/>
+            <point key="canvasLocation" x="692.75362318840587" y="-697.09821428571422"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Gu3-aR-4Dx">
+            <objects>
+                <viewController id="7Nh-Pk-2BD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FnU-2g-Fke">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yK-1U-JVo">
+                                <rect key="frame" x="10" y="103" width="395" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="5 WAYS EDUCATORS CAN SUPPORT NEURODIVERSITY IN THE CLASSROOM">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="10"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="Website1:" destination="m5z-Wn-ef5" eventType="touchUpInside" id="WIc-OJ-edx"/>
+                                    <action selector="Website1_URL:" destination="m5z-Wn-ef5" eventType="touchUpInside" id="MXO-Mf-jgc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="K1m-ft-vcY"/>
+                        <color key="backgroundColor" red="1" green="0.98857561159999996" blue="0.95789569190000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UGE-EH-H04" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="m5z-Wn-ef5" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1321.7391304347827" y="-683.03571428571422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2hZ-B1-Chu">
@@ -555,13 +656,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Student" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7Q-XE-SlM">
-                                <rect key="frame" x="93" y="130" width="228" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdk-9w-akP">
                                 <rect key="frame" x="20" y="831" width="134" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -571,23 +665,61 @@
                                     <segue destination="NAJ-ID-WKj" kind="presentation" modalPresentationStyle="fullScreen" id="HGH-0E-WSi"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn how to Neurodiversify your school" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qU7-Af-n7D">
+                                <rect key="frame" x="54" y="115" width="306" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D20-Ou-wfr">
+                                <rect key="frame" x="122" y="176" width="170" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Resources"/>
+                                <connections>
+                                    <segue destination="MxA-PV-9sH" kind="show" id="fGQ-av-gXr"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image2-4" translatesAutoresizingMaskIntoConstraints="NO" id="WCr-HT-edK">
+                                <rect key="frame" x="87" y="234" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="N1l-z6-5CW"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.98857561159999996" blue="0.95789569190000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Xg-wq-G7z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="693" y="834"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="6KR-xY-aX8">
+            <objects>
+                <viewController id="MxA-PV-9sH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SX1-lX-KMs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="gTJ-O7-xgV"/>
+                        <color key="backgroundColor" red="1" green="0.98857561159999996" blue="0.95789569190000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rsf-zG-uo4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qgC-Xm-jod" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1436" y="834"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="c1x-H3-X4N"/>
+        <segue reference="8fY-lt-bXo"/>
         <segue reference="eJf-Rz-HdT"/>
+        <segue reference="Qeg-vy-wmI"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="Chloe icon" width="2732" height="2048"/>
+        <image name="Educators image" width="840" height="570"/>
         <image name="Kordei icon" width="2732" height="2048"/>
         <image name="Lauren" width="1306" height="1365"/>
         <image name="Lauren icon" width="2732" height="2048"/>
@@ -597,11 +729,13 @@
         <image name="Shamma icon" width="2732" height="2048"/>
         <image name="_-removebg-preview" width="500" height="500"/>
         <image name="_neurodiverisfy__3_-removebg-preview" width="500" height="500"/>
+        <image name="asd-learningathome-1" width="1200" height="630"/>
+        <image name="image2-4" width="1200" height="801"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
