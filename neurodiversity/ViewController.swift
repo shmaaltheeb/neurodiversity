@@ -9,9 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBAction func createClass(_ sender: Any) {
-    }
-    
 }
 
 
