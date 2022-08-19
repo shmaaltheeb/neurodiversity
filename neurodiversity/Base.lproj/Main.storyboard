@@ -304,13 +304,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cl-MN-1hA">
-                                <rect key="frame" x="31" y="31" width="228" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8IL-hT-g7R">
                                 <rect key="frame" x="20" y="831" width="117" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -321,25 +314,51 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn how to Neurodiversify your home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqq-eW-80x">
-                                <rect key="frame" x="54" y="113" width="299" height="21"/>
+                                <rect key="frame" x="54" y="60" width="299" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtK-BJ-bPs">
-                                <rect key="frame" x="122" y="160" width="170" height="31"/>
+                                <rect key="frame" x="122" y="107" width="170" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Resources"/>
                                 <connections>
-                                    <segue destination="s4Z-Xk-2Hi" kind="presentation" id="Q89-sd-n68"/>
+                                    <segue destination="s4Z-Xk-2Hi" kind="presentation" modalPresentationStyle="automatic" id="m8Y-Xz-4dP"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asd-learningathome-1" translatesAutoresizingMaskIntoConstraints="NO" id="60j-tp-DbN">
-                                <rect key="frame" x="87" y="219" width="240" height="128"/>
+                                <rect key="frame" x="87" y="155" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CZb-Z6-HKx">
+                                <rect key="frame" x="35" y="282" width="345" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">EMBRACE YOUR CHILD’S DIFFERENCES!!
+
+At Neurodiversify, we understand the challenges that can accompany raising a neurodivergent child and we are here to support you through our interactive resources. 
+
+We believe that the hidden key to unlocking your child’s neuroexceptional talent is to accept your child for who they are and the different ways in which they might learn. 
+
+SHIFT YOUR MINDSET!
+
+Allow yourself to break free of the “traditional” parenting methods that society tends to embed beneath us! As hard as this might seem, it’s best for you and your child to seek out new ways that better fit their neurodivergent mind!
+
+ELIMINATE NEGATIVE VOCABULARY 
+
+When talking about your child’s diagnosis be sure to refrain from using negative terminology. The concept of the “deficit model” is a prime example of this as it fails to highlight any strengths that the child may have. If possible try to implement tactics of positive psychology!
+
+Now, one may ask… 
+WHAT IS POSITIVE PSYCHOLOGY?
+According to Psychology Today, “Positive Psychology is a branch of psychology that focused on the character strengths and behaviours that allow individuals to build a life of meaning and purpose - to move beyond surviving to flourishing. Theorists and researchers in the field have sought to identify the elements of a good life. They have also purposed and tested practices for improving life satisfaction and well-being.”
+</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12.5"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ltV-pk-B5W"/>
                         <color key="backgroundColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -347,7 +366,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGW-8c-iL8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2509" y="72"/>
+            <point key="canvasLocation" x="2508.6956521739135" y="71.651785714285708"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rKi-eQ-2FT">
@@ -365,39 +384,6 @@
             <point key="canvasLocation" x="3224" y="67"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="T8D-uZ-lgV">
-            <objects>
-                <viewController id="Q5J-ld-PXi" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dHz-rC-dMQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Li7-cn-HRz">
-                                <rect key="frame" x="105" y="110" width="228" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qth-c4-61a">
-                                <rect key="frame" x="20" y="831" width="129" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
-                                <connections>
-                                    <segue destination="NAJ-ID-WKj" kind="presentation" modalPresentationStyle="fullScreen" id="bRJ-i7-0bj"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="csI-f2-AMH"/>
-                        <color key="backgroundColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6Qe-Ks-Wa1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2509" y="915"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="8Hm-7E-eAz">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="NAJ-ID-WKj" sceneMemberID="viewController">
@@ -405,8 +391,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bGd-wV-utW">
+                                <rect key="frame" x="51" y="116.5" width="293" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qck-uG-IHx">
+                                <rect key="frame" x="20" y="831" width="78" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Back"/>
+                                <connections>
+                                    <segue destination="xG2-ff-TQZ" kind="presentation" modalPresentationStyle="fullScreen" id="df0-qb-zrS"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoQ-LN-oXm">
-                                <rect key="frame" x="125" y="377" width="164" height="41"/>
+                                <rect key="frame" x="115" y="407" width="164" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90514990884354651" green="0.9887365258302574" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.90514990880000001" green="0.98873652580000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -421,7 +421,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfv-6F-tYt">
-                                <rect key="frame" x="125" y="453" width="164" height="41"/>
+                                <rect key="frame" x="115" y="483" width="164" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -436,7 +436,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69x-To-TZs">
-                                <rect key="frame" x="125" y="523" width="164" height="41"/>
+                                <rect key="frame" x="115" y="553" width="164" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -450,42 +450,13 @@
                                     <segue destination="kSW-cI-CmS" kind="presentation" modalPresentationStyle="fullScreen" id="d8L-Rr-Da4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDH-6A-Dxp">
-                                <rect key="frame" x="125" y="599" width="164" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Other">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                    <color key="baseForegroundColor" red="0.29152524470000002" green="0.3274739981" blue="0.33658134940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="baseBackgroundColor" red="0.90514990884354651" green="0.9887365258302574" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Q5J-ld-PXi" kind="presentation" modalPresentationStyle="fullScreen" id="NVO-O6-RB5"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What would you describe yourself as?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ON7-Q7-KR1">
-                                <rect key="frame" x="47" y="309" width="341" height="24"/>
+                                <rect key="frame" x="37" y="339" width="341" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bGd-wV-utW">
-                                <rect key="frame" x="61" y="100" width="293" height="180"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qck-uG-IHx">
-                                <rect key="frame" x="20" y="831" width="78" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Back"/>
-                                <connections>
-                                    <segue destination="xG2-ff-TQZ" kind="presentation" modalPresentationStyle="fullScreen" id="df0-qb-zrS"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7S1-Hp-W6V"/>
                         <color key="backgroundColor" red="0.99689561130000004" green="0.99689549209999995" blue="0.99689549209999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -627,7 +598,7 @@ Allow all students to use fidget toys during lessons to help aid in them paying 
                                 <rect key="frame" x="37" y="322" width="340" height="510"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">EMBRACE YOUR CHILD’S DIFFERENCES!!
+                                <mutableString key="text">EMBRACE YOUR CHILD’S DIFFERENCES!!
 
 At Neurodiversify, we understand the challenges that can accompany raising a neurodivergent child and we are here to support you through our interactive resources. 
 
@@ -645,7 +616,7 @@ Now, one may ask…
 WHAT IS POSITIVE PSYCHOLOGY?
 
 According to Psychology Today, “Positive Psychology is a branch of psychology that focused on the character strengths and behaviours that allow individuals to build a life of meaning and purpose - to move beyond surviving to flourishing. Theorists and researchers in the field have sought to identify the elements of a good life. They have also purposed and tested practices for improving life satisfaction and well-being.”
-</string>
+</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11.5"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -684,7 +655,7 @@ According to Psychology Today, “Positive Psychology is a branch of psychology 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vH3-Pi-H5C"/>
+        <segue reference="8fY-lt-bXo"/>
         <segue reference="df0-qb-zrS"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
