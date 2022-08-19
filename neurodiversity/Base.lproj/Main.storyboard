@@ -177,7 +177,7 @@
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1200" id="39K-lH-9jV"/>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="1200" id="5n9-cJ-big"/>
@@ -189,6 +189,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="6JZ-Q8-U6B" firstAttribute="leading" secondItem="Qwh-aR-TME" secondAttribute="leading" id="8uF-9h-qNr"/>
                                     <constraint firstItem="6JZ-Q8-U6B" firstAttribute="top" secondItem="Qwh-aR-TME" secondAttribute="top" id="Lcp-a5-Z1o"/>
@@ -643,7 +644,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="c1x-H3-X4N"/>
-        <segue reference="df0-qb-zrS"/>
+        <segue reference="eJf-Rz-HdT"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
@@ -661,9 +662,6 @@
         </systemColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
