@@ -512,7 +512,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZu-rt-aF7">
-                                <rect key="frame" x="122" y="227" width="170" height="31"/>
+                                <rect key="frame" x="122" y="184" width="170" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Resources"/>
@@ -530,23 +530,26 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Educators image" translatesAutoresizingMaskIntoConstraints="NO" id="0Ap-CW-Ge8">
-                                <rect key="frame" x="71" y="266" width="273" height="153"/>
+                                <rect key="frame" x="71" y="223" width="273" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Rg-iI-6MI">
-                                <rect key="frame" x="35" y="445" width="344" height="306"/>
+                                <rect key="frame" x="54" y="367" width="344" height="429"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">- Encourage students to focus on specific skills needed for jobs that interest them. 
--Teach “basic life skills” for the work world, like budgeting and dealing with stress.
--Allow students to try something new even if they may not succeed. 
--Have a psychologically safe classroom
--Present information in small chunks
--Diversify your teaching strategies 
--Familiarise yourself wth their strengths and weaknesses
-</string>
+                                <mutableString key="text">
+VALUE STUDENTS’ DIFFERENCES!
+While this may seem somewhat cliche and overused, it’s extremely important for teachers to recognize the struggles that neurodivergent students may face. In addition to this, be sure to highlight their strengths as opposed to only focusing on their adversities. 
+
+HAVE DIM LIGHTING
+If possible, have dim lighting at some point during the school day. This can help ease the anxiety often brought on by the intense white lights.  
+
+ALLOW FIDGET TOYS
+Allow all students to use fidget toys during lessons to help aid in them paying attention to the teaching materials.
+
+</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -556,7 +559,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FcM-aV-XnW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125" y="-683"/>
+            <point key="canvasLocation" x="124.6376811594203" y="-683.03571428571422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Gu3-aR-4Dx">
@@ -608,14 +611,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn how to Neurodiversify your school" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qU7-Af-n7D">
-                                <rect key="frame" x="54" y="115" width="306" height="21"/>
+                                <rect key="frame" x="54" y="91" width="306" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D20-Ou-wfr">
-                                <rect key="frame" x="122" y="176" width="170" height="31"/>
+                                <rect key="frame" x="122" y="128" width="170" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Resources"/>
@@ -624,15 +627,34 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image2-4" translatesAutoresizingMaskIntoConstraints="NO" id="WCr-HT-edK">
-                                <rect key="frame" x="87" y="234" width="240" height="128"/>
+                                <rect key="frame" x="87" y="186" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vmZ-CU-tQx">
-                                <rect key="frame" x="37" y="384" width="340" height="439"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vmZ-CU-tQx">
+                                <rect key="frame" x="37" y="322" width="340" height="510"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">EMBRACE YOUR CHILD’S DIFFERENCES!!
+
+At Neurodiversify, we understand the challenges that can accompany raising a neurodivergent child and we are here to support you through our interactive resources. 
+
+We believe that the hidden key to unlocking your child’s neuroexceptional talent is to accept your child for who they are and the different ways in which they might learn. 
+
+SHIFT YOUR MINDSET!
+
+Allow yourself to break free of the “traditional” parenting methods that society tends to embed beneath us! As hard as this might seem, it’s best for you and your child to seek out new ways that better fit their neurodivergent mind!
+
+ELIMINATE NEGATIVE VOCABULARY 
+
+When talking about your child’s diagnosis be sure to refrain from using negative terminology. The concept of the “deficit model” is a prime example of this as it fails to highlight any strengths that the child may have. If possible try to implement tactics of positive psychology!
+
+Now, one may ask… 
+WHAT IS POSITIVE PSYCHOLOGY?
+
+According to Psychology Today, “Positive Psychology is a branch of psychology that focused on the character strengths and behaviours that allow individuals to build a life of meaning and purpose - to move beyond surviving to flourishing. Theorists and researchers in the field have sought to identify the elements of a good life. They have also purposed and tested practices for improving life satisfaction and well-being.”
+</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11.5"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -678,9 +700,6 @@
         <image name="person.circle" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
