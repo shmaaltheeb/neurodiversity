@@ -375,13 +375,22 @@ According to Psychology Today, “Positive Psychology is a branch of psychology 
                     <view key="view" contentMode="scaleToFill" id="rYv-Uo-ieW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COMING SOON! &lt;3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ln-9S-ZOm">
+                                <rect key="frame" x="27" y="265" width="360" height="312"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="IbP-r4-kt5"/>
                         <color key="backgroundColor" red="0.29152524470000002" green="0.3274739981" blue="0.33658134940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="whG-W9-qM0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1680" y="-552"/>
+            <point key="canvasLocation" x="1679.7101449275362" y="-552.45535714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8Hm-7E-eAz">
@@ -501,7 +510,7 @@ According to Psychology Today, “Positive Psychology is a branch of psychology 
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Done"/>
                                         <connections>
-                                            <segue destination="tEz-5z-nZj" kind="presentation" modalPresentationStyle="fullScreen" id="Q1p-vf-eWM"/>
+                                            <segue destination="tEz-5z-nZj" kind="presentation" modalPresentationStyle="fullScreen" id="Gm5-kH-bR4"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -590,6 +599,7 @@ Allow all students to use fidget toys during lessons to help aid in them paying 
                         <viewLayoutGuide key="safeArea" id="66B-Rb-D14"/>
                         <color key="backgroundColor" red="0.86492031810000003" green="0.93621748689999995" blue="0.9437764287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="GJp-RF-9wp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FcM-aV-XnW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="CRk-os-cHU" userLabel="Exit" sceneMemberID="exit"/>
@@ -614,7 +624,7 @@ Allow all students to use fidget toys during lessons to help aid in them paying 
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D20-Ou-wfr">
-                                <rect key="frame" x="122" y="128" width="170" height="31"/>
+                                <rect key="frame" x="122" y="109" width="170" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Resources"/>
@@ -623,14 +633,20 @@ Allow all students to use fidget toys during lessons to help aid in them paying 
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image2-4" translatesAutoresizingMaskIntoConstraints="NO" id="WCr-HT-edK">
-                                <rect key="frame" x="87" y="186" width="240" height="128"/>
+                                <rect key="frame" x="87" y="148" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vmZ-CU-tQx">
-                                <rect key="frame" x="37" y="322" width="340" height="510"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn how to Neurodiversify your school" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qU7-Af-n7D">
+                                <rect key="frame" x="54" y="70" width="306" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">EMBRACE YOUR CHILD’S DIFFERENCES!!
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xxu-KF-qeP">
+                                <rect key="frame" x="20" y="295" width="374" height="518"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">EMBRACE YOUR DIFFERENCES!!
 
 At Neurodiversify, we understand the challenges that can accompany raising a neurodivergent child and we are here to support you through our interactive resources. 
 
@@ -648,15 +664,8 @@ Now, one may ask…
 WHAT IS POSITIVE PSYCHOLOGY?
 
 According to Psychology Today, “Positive Psychology is a branch of psychology that focused on the character strengths and behaviours that allow individuals to build a life of meaning and purpose - to move beyond surviving to flourishing. Theorists and researchers in the field have sought to identify the elements of a good life. They have also purposed and tested practices for improving life satisfaction and well-being.”
-</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="11.5"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn how to Neurodiversify your school" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qU7-Af-n7D">
-                                <rect key="frame" x="54" y="85" width="306" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -671,9 +680,9 @@ According to Psychology Today, “Positive Psychology is a branch of psychology 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Thp-fd-4G5"/>
-        <segue reference="vH3-Pi-H5C"/>
-        <segue reference="kak-cK-CHs"/>
+        <segue reference="Gm5-kH-bR4"/>
+        <segue reference="HGH-0E-WSi"/>
+        <segue reference="hep-8x-VkK"/>
         <segue reference="df0-qb-zrS"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
